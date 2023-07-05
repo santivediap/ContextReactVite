@@ -1,0 +1,30 @@
+main {
+    padding: 4%;
+}
+
+.userdata-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userdata-form > input {
+    margin-bottom: 4%;
+    width: 80%;
+    border: .8vw solid #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 2vw 2vw;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.userdata-form > button {
+    background-color: black;
+    border: .7vw solid white;
+    color: white;
+    font-weight: bold;
+    width: 40%;
+    font-size: 3vw;
+}
